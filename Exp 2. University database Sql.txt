@@ -287,16 +287,16 @@ CREATE TABLE emp(
 );
 
 # Inserting employee records
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Kanak');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Namu');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Tanay');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Tanu');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Mahima');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Savi');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Saana');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Nitya');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Reshal');
-INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Asha');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Pranav');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Bhumika');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Vaishnavi');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Aryan');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Parth');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Rugved');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Satish');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Swanand');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Avantika');
+INSERT INTO emp VALUES (emp_sq.NEXTVAL, 'Tanishk');
 
 ---------------------------------------------------------------------------------------
 
@@ -334,16 +334,16 @@ START WITH 1
 INCREMENT BY 1;
 
 # Insert records using new sequence
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Kanak', 9999898);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Namu', 9999999);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Tanay', 999888);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Tanu', 99887676);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Mahima', 734646454);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Savi', 353445667);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Saana', 857453536);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Nitya', 572367478);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Reshal', 486767823);
-INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Asha', 4378434334);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Pranav', 9999898);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Bhumika', 9999999);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Vaishnavi', 999888);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Aryan', 99887676);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Parth', 734646454);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Rugved', 353445667);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Satish', 857453536);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Swanand', 572367478);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Avantika', 486767823);
+INSERT INTO emp VALUES (emp_s.NEXTVAL, 'Tanishk', 4378434334);
 
 
 ---------------------------------------------------------------------------------------
@@ -376,16 +376,16 @@ START WITH 1
 INCREMENT BY 1;
 
 # Insert employee records
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Kanak', 9999898, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Namu', 9999999, 440067);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Tanay', 999888, 440009);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Tanu', 99887676, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Mahima', 734646454, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Savi', 353445667, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Saana', 857453536, 400004);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Nitya', 57236747844, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Reshal', 486767823, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Asha', 4378434334, 440000);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Pranav', 9999898);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Bhumika', 9999999);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Vaishnavi', 999888);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Aryan', 99887676);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Parth', 734646454);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Rugved', 353445667);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Satish', 857453536);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Swanand', 572367478);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Avantika', 486767823);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Tanishk', 4378434334);
 
 ---------------------------------------------------------------------------------------
 -- JOINS
@@ -439,16 +439,16 @@ START WITH 1
 INCREMENT BY 1;
 
 # Insert employee records
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Kanak', 9999898, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Namu', 9999999, 440067);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Tanay', 999888, 440009);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Tanu', 99887676, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Mahima', 734646454, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Savi', 353445667, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Saana', 857453536, 400004);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Nitya', 57236747844, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Reshal', 486767823, 440000);
-INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Asha', 4378434334, 440000);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Pranav', 9999898);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Bhumika', 9999999);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Vaishnavi', 999888);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Aryan', 99887676);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Parth', 734646454);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Rugved', 353445667);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Satish', 857453536);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Swanand', 572367478);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Avantika', 486767823);
+INSERT INTO emp VALUES (emp_sqn.NEXTVAL, 'Tanishk', 4378434334);
 
 ---------------------------------------------------------------------------------------
 -- JOINS
