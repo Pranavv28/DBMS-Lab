@@ -1,11 +1,11 @@
 CREATE OR REPLACE PROCEDURE Sub_Avg (
-    cn    IN INT,
-    dbms  IN INT,
-    ifds  IN INT,
-    cmbs  IN INT
+    cn   IN INT,
+    dbms IN INT,
+    ifds IN INT,
+    cmbs IN INT
 ) AS
     total INT;
-    per   NUMBER(5,2);
+    per NUMBER(5,2);
 BEGIN
     total := cn + dbms + ifds + cmbs;
     per := (total / 400) * 100;
@@ -27,3 +27,4 @@ BEGIN
     END IF;
 END;
 /
+
