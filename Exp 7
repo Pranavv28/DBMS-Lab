@@ -1,0 +1,60 @@
+CREATE OR REPLACE PROCEDURE SumFirst10Numbers_WhileLoop AS
+    i NUMBER := 1;
+    sum1 NUMBER := 0;
+BEGIN
+    WHILE i <= 10 LOOP
+        sum1 := sum1 + i;
+        i := i + 1;
+    END LOOP;
+    DBMS_OUTPUT.PUT_LINE('Sum of first 10 numbers using WHILE loop: ' || sum1);
+END;
+/
+
+#----------------------------------------------------------------------------------------
+
+CREATE OR REPLACE PROCEDURE SumTillN(n IN NUMBER) AS
+    i NUMBER := 1;
+    sum1 NUMBER := 0;
+BEGIN
+    WHILE i <= n LOOP
+        sum1 := sum1 + i;
+        i := i + 1;
+    END LOOP;
+
+    DBMS_OUTPUT.PUT_LINE('Sum of numbers from 1 to ' || n || ' is: ' || sum1);
+END;
+/
+
+#----------------------------------------------------------------------------------------
+
+CREATE OR REPLACE PROCEDURE SumFirst_n_Numbers_ForLoop(
+n IN NUMBER)
+AS
+    sum1 NUMBER := 0;
+BEGIN
+    FOR i IN 1..n LOOP
+        sum1 := sum1 + i;
+    END LOOP;
+
+    DBMS_OUTPUT.PUT_LINE('Sum of first n numbers using FOR loop: ' || sum1);
+END;
+/
+
+EXEC SumFirst_n_Numbers_ForLoop(10);
+
+#----------------------------------------------------------------------------------------
+
+CREATE OR REPLACE PROCEDURE SumFirst_n_Numbers_ForLoop(
+n IN NUMBER)
+AS
+    sum1 NUMBER := 0;
+BEGIN
+    FOR i REVERSE IN 1..n LOOP
+        sum1 := sum1 + i;
+    END LOOP;
+
+    DBMS_OUTPUT.PUT_LINE('Sum of first n numbers using FOR loop: ' || sum1);
+END;
+/
+
+
