@@ -1,0 +1,62 @@
+CREATE OR REPLACE PROCEDURE hello_world
+AS
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Hello World ! Welcome to SIT');
+END;
+/
+
+set serveroutput on;
+execute hello_world;
+exec hello_world;
+
+
+CREATE OR REPLACE PROCEDURE ADDNumbers
+AS
+    a NUMBER;
+    b NUMBER;
+BEGIN
+    a := 5;
+    b := 10;
+    
+    DBMS_OUTPUT.PUT_LINE('RESULT: ' || (a + b));
+END;
+/
+execute ADDNumbers;
+
+
+CREATE OR REPLACE PROCEDURE ADD1 (
+    a IN NUMBER,
+    b IN NUMBER )
+AS
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('RESULT: ' || (a + b));
+END;
+/
+exec ADD1 (5,10);
+
+
+
+CREATE OR REPLACE PROCEDURE ADD1 (
+    a IN NUMBER,
+    b IN NUMBER,
+    c Out NUMBER )
+AS
+BEGIN
+    c := (a+b) ;
+    DBMS_OUTPUT.PUT_LINE('RESULT: ' || (c));
+END;
+/
+variable c1 Number;
+exec ADD1 (5,10,:c1);
+
+
+CREATE OR REPLACE PROCEDURE SwapNumbers (
+    num1 IN OUT NUMBER,
+    num2 IN OUT NUMBER
+) AS
+BEGIN
+    num1 := num1 + num2;
+    num2 := num1 - num2;
+    num1 := num1 - num2;
+END;
+/
